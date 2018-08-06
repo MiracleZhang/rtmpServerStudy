@@ -2,11 +2,11 @@ package rtmp
 
 import (
 	"fmt"
-	"rtmpServerStudy/amf"
+	"github.com/MiracleZhang/rtmpServerStudy/amf"
 	"context"
-	"rtmpServerStudy/AvQue"
+	"github.com/MiracleZhang/rtmpServerStudy/AvQue"
 	"net/url"
-	"rtmpServerStudy/log"
+	"github.com/MiracleZhang/rtmpServerStudy/log"
 	"time"
 	"strings"
 )

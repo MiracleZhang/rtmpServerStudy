@@ -4,24 +4,24 @@ import (
 	"bufio"
 	"context"
 	"fmt"
-	"rtmpServerStudy/utils/bits/pio"
+	"github.com/MiracleZhang/rtmpServerStudy/utils/bits/pio"
 	"io"
 	"net"
 	"net/url"
 	"time"
 	//"encoding/hex"
 	"sync"
-	"rtmpServerStudy/AvQue"
-	//"rtmpServerStudy/aacParse"
-	"rtmpServerStudy/flv/flvio"
+	"github.com/MiracleZhang/rtmpServerStudy/AvQue"
+	//"github.com/MiracleZhang/rtmpServerStudy/aacParse"
+	"github.com/MiracleZhang/rtmpServerStudy/flv/flvio"
 	"strings"
-	"rtmpServerStudy/av"
+	"github.com/MiracleZhang/rtmpServerStudy/av"
 	//"encoding/hex"
 	"hash/fnv"
 	"runtime"
 	"os"
-	"rtmpServerStudy/config"
-	"rtmpServerStudy/amf"
+	"github.com/MiracleZhang/rtmpServerStudy/config"
+	"github.com/MiracleZhang/rtmpServerStudy/amf"
 	"github.com/lucas-clemente/quic-go"
 	"crypto/tls"
 	"crypto/rsa"
@@ -30,7 +30,7 @@ import (
 	"math/big"
 	"encoding/pem"
 	"github.com/xtaci/kcp-go"
-	"rtmpServerStudy/log"
+	"github.com/MiracleZhang/rtmpServerStudy/log"
 	//"go.uber.org/zap/zapcore"
 	"go.uber.org/zap"
 )
@@ -979,7 +979,7 @@ func (self * Server)rtmpQuicServerStart(addr string)(err error) {
 		}
 		stream, err := sess.AcceptStream()
 		if err != nil {
-			sess.Close(err)
+			sess.Close()
 			fmt.Println("udp accept err:",err)
 			continue
 		}

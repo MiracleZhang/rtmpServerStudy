@@ -1,7 +1,7 @@
 package rtmp
 
 import (
-	"rtmpServerStudy/av"
+	"github.com/MiracleZhang/rtmpServerStudy/av"
 	//"net/url"
 	"io"
 	"os"

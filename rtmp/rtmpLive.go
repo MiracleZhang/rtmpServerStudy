@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"time"
 	//"context"
-	//"rtmpServerStudy/amf"
-	"rtmpServerStudy/av"
-	//"rtmpServerStudy/flv"
-	"rtmpServerStudy/flv/flvio"
-	"rtmpServerStudy/timer"
-	"rtmpServerStudy/log"
+	//"github.com/MiracleZhang/rtmpServerStudy/amf"
+	"github.com/MiracleZhang/rtmpServerStudy/av"
+	//"github.com/MiracleZhang/rtmpServerStudy/flv"
+	"github.com/MiracleZhang/rtmpServerStudy/flv/flvio"
+	"github.com/MiracleZhang/rtmpServerStudy/timer"
+	"github.com/MiracleZhang/rtmpServerStudy/log"
 )
 
 func (self *Session)rtmpClosePublishingSession(){

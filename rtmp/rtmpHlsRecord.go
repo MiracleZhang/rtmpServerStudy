@@ -1,18 +1,18 @@
 package rtmp
 
 import (
-	"rtmpServerStudy/av"
+	"github.com/MiracleZhang/rtmpServerStudy/av"
 	"os"
 	"fmt"
 	"time"
-	"rtmpServerStudy/ts"
-	"rtmpServerStudy/flv/flvio"
+	"github.com/MiracleZhang/rtmpServerStudy/ts"
+	"github.com/MiracleZhang/rtmpServerStudy/flv/flvio"
 	"strings"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 	"github.com/gorilla/mux"
-	"rtmpServerStudy/aacParse"
+	"github.com/MiracleZhang/rtmpServerStudy/aacParse"
 	"strconv"
 	"bufio"
 	"github.com/grafov/m3u8"

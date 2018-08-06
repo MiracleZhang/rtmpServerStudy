@@ -2,15 +2,15 @@ package ts
 
 import (
 	"fmt"
-	"rtmpServerStudy/av"
-	"rtmpServerStudy/aacParse"
-	"rtmpServerStudy/h264Parse"
-	"rtmpServerStudy/ts/tsio"
+	"github.com/MiracleZhang/rtmpServerStudy/av"
+	"github.com/MiracleZhang/rtmpServerStudy/aacParse"
+	"github.com/MiracleZhang/rtmpServerStudy/h264Parse"
+	"github.com/MiracleZhang/rtmpServerStudy/ts/tsio"
 	"io"
 //	"time"
 	//"encoding/hex"
 	"bufio"
-	"rtmpServerStudy/utils/bits/pio"
+	"github.com/MiracleZhang/rtmpServerStudy/utils/bits/pio"
 )
 
 //now just support aac h264 for ts

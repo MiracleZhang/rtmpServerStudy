@@ -1,7 +1,7 @@
 package main
 
 import (
-	"rtmpServerStudy/rtmp"
+	"github.com/MiracleZhang/rtmpServerStudy/rtmp"
 	"fmt"
 	_ "net/http/pprof"
 	"flag"

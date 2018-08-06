@@ -3,9 +3,9 @@ package aacparser
 import (
 	"bytes"
 	"fmt"
-	"rtmpServerStudy/utils/bits"
+	"github.com/MiracleZhang/rtmpServerStudy/utils/bits"
 	"io"
-	"rtmpServerStudy/av"
+	"github.com/MiracleZhang/rtmpServerStudy/av"
 	"time"
 )
 

@@ -4,13 +4,13 @@ import (
 	"bufio"
 	"fmt"
 	"time"
-	"rtmpServerStudy/utils/bits/pio"
+	"github.com/MiracleZhang/rtmpServerStudy/utils/bits/pio"
 
 //	"github.com/nareix/bits/pio"
-	"rtmpServerStudy/av"
-	"rtmpServerStudy/ts/tsio"
-	"rtmpServerStudy/aacParse"
-	"rtmpServerStudy/h264Parse"
+	"github.com/MiracleZhang/rtmpServerStudy/av"
+	"github.com/MiracleZhang/rtmpServerStudy/ts/tsio"
+	"github.com/MiracleZhang/rtmpServerStudy/aacParse"
+	"github.com/MiracleZhang/rtmpServerStudy/h264Parse"
 	"io"
 )
 

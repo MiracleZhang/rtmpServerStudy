@@ -29,7 +29,6 @@
       <root url="file://$PROJECT_DIR$/../scripts" />
       <root url="file://$PROJECT_DIR$/../rtmpServer" />
     </CLASSES>
-    <JAVADOC />
     <SOURCES>
       <root url="file://$PROJECT_DIR$/../go.uber.org" />
       <root url="file://$PROJECT_DIR$/../ww" />

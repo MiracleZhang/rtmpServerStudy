@@ -1,8 +1,8 @@
 package rtmp
 
 import (
-	"rtmpServerStudy/amf"
-	"rtmpServerStudy/utils/bits/pio"
+	"github.com/MiracleZhang/rtmpServerStudy/amf"
+	"github.com/MiracleZhang/rtmpServerStudy/utils/bits/pio"
 )
 
 func (self *Session) writeDataMsg(csid, msgsid uint32, args ...interface{}) (err error) {

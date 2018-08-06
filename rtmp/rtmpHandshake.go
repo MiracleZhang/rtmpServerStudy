@@ -6,7 +6,7 @@ import (
 	"crypto/rand"
 	"crypto/sha256"
 	"fmt"
-	"rtmpServerStudy/utils/bits/pio"
+	"github.com/MiracleZhang/rtmpServerStudy/utils/bits/pio"
 	"io"
 )
 

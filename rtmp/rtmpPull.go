@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"runtime"
 	"net"
-	"rtmpServerStudy/timer"
+	"github.com/MiracleZhang/rtmpServerStudy/timer"
 )
 
 const (

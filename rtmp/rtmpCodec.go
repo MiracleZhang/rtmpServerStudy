@@ -3,11 +3,11 @@ package rtmp
 import (
 	"container/list"
 	"fmt"
-	"rtmpServerStudy/aacParse"
-	"rtmpServerStudy/av"
-	"rtmpServerStudy/flv/flvio"
-	"rtmpServerStudy/h264Parse"
-	"rtmpServerStudy/h265Parse"
+	"github.com/MiracleZhang/rtmpServerStudy/aacParse"
+	"github.com/MiracleZhang/rtmpServerStudy/av"
+	"github.com/MiracleZhang/rtmpServerStudy/flv/flvio"
+	"github.com/MiracleZhang/rtmpServerStudy/h264Parse"
+	"github.com/MiracleZhang/rtmpServerStudy/h265Parse"
 )
 
 func RtmpMsgDecodeVideoHandler(session *Session, timestamp uint32, msgsid uint32, msgtypeid uint8, msgdata []byte) (err error) {

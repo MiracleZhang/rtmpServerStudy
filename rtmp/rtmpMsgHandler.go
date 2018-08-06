@@ -2,9 +2,9 @@ package rtmp
 
 import (
 	"fmt"
-	"rtmpServerStudy/utils/bits/pio"
-	"rtmpServerStudy/amf"
-	"rtmpServerStudy/log"
+	"github.com/MiracleZhang/rtmpServerStudy/utils/bits/pio"
+	"github.com/MiracleZhang/rtmpServerStudy/amf"
+	"github.com/MiracleZhang/rtmpServerStudy/log"
 )
 
 // recv peer set chunk  size

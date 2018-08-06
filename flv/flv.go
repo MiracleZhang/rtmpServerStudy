@@ -3,14 +3,14 @@ package flv
 import (
 	"bufio"
 	"fmt"
-	"rtmpServerStudy/utils/bits/pio"
+	"github.com/MiracleZhang/rtmpServerStudy/utils/bits/pio"
 	"io"
-	"rtmpServerStudy/av"
-	"rtmpServerStudy/flv/flvio"
-	"rtmpServerStudy/aacParse"
-	"rtmpServerStudy/amf"
-	"rtmpServerStudy/h264Parse"
-	"rtmpServerStudy/h265Parse"
+	"github.com/MiracleZhang/rtmpServerStudy/av"
+	"github.com/MiracleZhang/rtmpServerStudy/flv/flvio"
+	"github.com/MiracleZhang/rtmpServerStudy/aacParse"
+	"github.com/MiracleZhang/rtmpServerStudy/amf"
+	"github.com/MiracleZhang/rtmpServerStudy/h264Parse"
+	"github.com/MiracleZhang/rtmpServerStudy/h265Parse"
 	"encoding/hex"
 )
 

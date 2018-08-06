@@ -2,8 +2,8 @@ package ts
 
 import (
 	"time"
-	"rtmpServerStudy/av"
-	"rtmpServerStudy/ts/tsio"
+	"github.com/MiracleZhang/rtmpServerStudy/av"
+	"github.com/MiracleZhang/rtmpServerStudy/ts/tsio"
 )
 
 

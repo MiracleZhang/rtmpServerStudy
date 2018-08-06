@@ -2,7 +2,7 @@ package AvQue
 
 import ()
 import (
-	"rtmpServerStudy/av"
+	"github.com/MiracleZhang/rtmpServerStudy/av"
 )
 
 type Object [](*av.Packet)

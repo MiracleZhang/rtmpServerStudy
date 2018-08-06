@@ -3,9 +3,9 @@ package h264parser
 import (
 	"bytes"
 	"fmt"
-	"rtmpServerStudy/utils/bits"
-	"rtmpServerStudy/utils/bits/pio"
-	"rtmpServerStudy/av"
+	"github.com/MiracleZhang/rtmpServerStudy/utils/bits"
+	"github.com/MiracleZhang/rtmpServerStudy/utils/bits/pio"
+	"github.com/MiracleZhang/rtmpServerStudy/av"
 )
 
 const (

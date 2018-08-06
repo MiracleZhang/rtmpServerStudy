@@ -1,8 +1,8 @@
 package flvio
 import (
 	"fmt"
-	"rtmpServerStudy/utils/bits/pio"
-	"rtmpServerStudy/av"
+	"github.com/MiracleZhang/rtmpServerStudy/utils/bits/pio"
+	"github.com/MiracleZhang/rtmpServerStudy/av"
 	"io"
 	"time"
 )

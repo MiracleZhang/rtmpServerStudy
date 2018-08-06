@@ -5,11 +5,11 @@ import (
 	"net/url"
 	"time"
 	"fmt"
-	"rtmpServerStudy/amf"
+	"github.com/MiracleZhang/rtmpServerStudy/amf"
 	"runtime"
 	//"github.com/aws/aws-sdk-go/aws/session"
 	"context"
-	"rtmpServerStudy/AvQue"
+	"github.com/MiracleZhang/rtmpServerStudy/AvQue"
 )
 
 func rtmpClientRelayProxy(network,host,vhost,App,streamId,desUrl string,stage int) (err error) {

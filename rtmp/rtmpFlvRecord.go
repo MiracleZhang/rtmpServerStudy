@@ -1,12 +1,12 @@
 package rtmp
 
 import (
-	"rtmpServerStudy/av"
+	"github.com/MiracleZhang/rtmpServerStudy/av"
 	"time"
-	"rtmpServerStudy/flv"
+	"github.com/MiracleZhang/rtmpServerStudy/flv"
 	"fmt"
 	"os"
-	"rtmpServerStudy/flv/flvio"
+	"github.com/MiracleZhang/rtmpServerStudy/flv/flvio"
 	"strconv"
 	"strings"
 )
